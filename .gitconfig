@@ -1,0 +1,21 @@
+[user]
+  name = kyo-nanba
+  email = 1596772+kyo-nanba@users.noreply.github.com
+[core]
+  excludesfile = ~/.gitignore_global
+	editor = vim
+[color]
+  ui = auto
+[alias]
+  glog = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  gloga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  co = checkout
+  s = status
+[push]
+  default = simple
+[merge]
+  ff = false
+[pull]
+  ff = only
+[diff]
+  noprefix = true
