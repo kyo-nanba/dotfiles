@@ -3,7 +3,8 @@
   email = 1596772+kyo-nanba@users.noreply.github.com
 [core]
   excludesfile = ~/.gitignore_global
-	editor = vim
+  editor = vim
+  quotepath = false
 [color]
   ui = auto
 [alias]
