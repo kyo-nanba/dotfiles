@@ -20,3 +20,5 @@
   ff = only
 [diff]
   noprefix = true
+[fetch]
+  prune = true
